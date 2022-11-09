@@ -20,6 +20,25 @@ Practica de html, tengo que realizar lo siguiente:
 
 ![UX](./desing/excalidraw/ux.png)
 
+### Home Page(pagina de informacion)
+
+[home](./index.html)
+
+### Formulario de contacto
+
+[PedidoFormulario](./pages/pedidoFormulario.html)
+
+### Tabla de pedido
+
+[TablaPedidos](./pages/pedidosTablasPage.html)
+
+### Adornos Inventario
+
+[AdornosInventarioPage](./pages/adornosInventarioPage.html.html)
+
+### Sabores Inventario
+
+[SaboresInventarioPage](./pages/saboresInventarioPage.html)
 
 Bonus:
 En caso de que te quede corto el ejercicio siguele con esto!
