@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+
+        <label for="telefono">Telefono:</label>
+        <input type="number" name="telefono" id="telefono">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+
+        <label for="desc">Descripcion del pastel:</label>
+        <input type="text" name="desc" id="desc">
+
+        <!-- Elegir sabor -->
+        <div>
+            <h1>Sabores</h1>
+            <input type="checkbox" name="sabores" value="chocolate">
+            <label>Chocolate</label>
+            <input type="checkbox" name="sabores" value="ron">
+            <label>Ron</label>
+            <input type="checkbox" name="sabores" value="vainilla">
+            <label>Vainilla</label>
+            <input type="checkbox" name="sabores" value="cafe">
+            <label>Cafe</label>
+            <input type="checkbox" name="sabores" value="fresa">
+            <label>Fresa</label>
+        </div>
+        <!-- Adornos -->
+        <div>
+            <h1>Adornos</h1>
+            <input type="checkbox" name="frase" value="frase">
+            <label>Frase</label>
+            <input type="checkbox" name="chispitas" value="chispitas">
+            <label>Chispitas de chocolate</label>
+            <input type="checkbox" name="foto" value="foto">
+            <label>Fotografia</label>
+            <input type="checkbox" name="fruta" value="fruta">
+            <label>fruta</label>
+        </div>
+    </form>
+
+</body>
+</html>
